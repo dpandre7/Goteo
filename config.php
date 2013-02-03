@@ -90,8 +90,8 @@ define('GOTEO_GETTEXT_DOMAIN', 'messages');
 define('GOTEO_GETTEXT_BYPASS_CACHING', true);
 
 // url
-define('SITE_URL', 'http://localhost:8888/');
-define('SRC_URL', 'http://localhost:8888/');
+define('SITE_URL', 'myfirstgoteoinstance.orchestra.io');
+define('SRC_URL', 'myfirstgoteoinstance.orchestra.io');
 
 // Cron params
 define('CRON_PARAM', '');
