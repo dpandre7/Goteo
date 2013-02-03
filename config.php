@@ -57,12 +57,12 @@ define('GOTEO_META_COPYRIGHT', 'Fundación Fuentes Abiertas');
 
 // Database
 define('GOTEO_DB_DRIVER', 'mysql');
-define('GOTEO_DB_HOST', 'localhost');
+define('GOTEO_DB_HOST', 'a.db.shared.orchestra.io');
 define('GOTEO_DB_PORT', 3306);
 define('GOTEO_DB_CHARSET', 'UTF-8');
-define('GOTEO_DB_SCHEMA', 'goteo');
-define('GOTEO_DB_USERNAME', 'root');
-define('GOTEO_DB_PASSWORD', 'root');
+define('GOTEO_DB_SCHEMA', 'db_7f6f1308');
+define('GOTEO_DB_USERNAME', 'user_7f6f1308');
+define('GOTEO_DB_PASSWORD', 'kIhOcKE8!,b93,');
 
 //Uploads i catxe
 define('GOTEO_DATA_PATH', dirname(__FILE__) . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR);
