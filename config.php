@@ -64,7 +64,7 @@ define('GOTEO_DB_DRIVER', 'mysql');
 define('GOTEO_DB_HOST', 'a.db.shared.orchestra.io');
 define('GOTEO_DB_PORT', 3306);
 define('GOTEO_DB_CHARSET', 'UTF-8');
-define('GOTEO_DB_SCHEMA', 'goteo');
+define('GOTEO_DB_SCHEMA', 'db_7f6f1308');
 define('GOTEO_DB_USERNAME', 'user_7f6f1308');
 define('GOTEO_DB_PASSWORD', 'kIhOcKE8!,b93,');
 
