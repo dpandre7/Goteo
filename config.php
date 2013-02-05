@@ -56,10 +56,18 @@ define('GOTEO_META_AUTHOR', 'Onliners Web Development');
 define('GOTEO_META_COPYRIGHT', 'Fundación Fuentes Abiertas');
 
 // Database
+
 //Name:db_7f6f1308
 //Hostname:	a.db.shared.orchestra.io
 //Username:	user_7f6f1308
 //Password:	kIhOcKE8!,b93,
+
+// I get this output in my browser window when I point to the public DNS: https://myfirstgoteoinstance.orchestra.io/
+
+//Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /mnt/orchestra-virtualized/home/myfirstgoteoinstance/var/www/site/latest/core/db.php:36 Stack trace: #0 /mnt/orchestra-virtualized/home/myfirstgoteoinstance/var/www/site/latest/core/db.php(36): PDO->__construct('mysql:host=loca...', 'root', 'root', Array) #1 /mnt/orchestra-virtualized/home/myfirstgoteoinstance/var/www/site/latest/core/model.php(77): Goteo\Core\DB->__construct() #2 /mnt/orchestra-virtualized/home/myfirstgoteoinstance/var/www/site/latest/library/lang.php(128): Goteo\Core\Model::query('SELECT locale F...', Array) #3 /mnt/orchestra-virtualized/home/myfirstgoteoinstance/var/www/site/latest/index.php(79): Goteo\Library\Lang::locale() #4 {main} thrown in /mnt/orchestra-virtualized/home/myfirstgoteoinstance/var/www/site/latest/core/db.php on line 36
+
+// Please help.
+
 define('GOTEO_DB_DRIVER', 'mysql');
 define('GOTEO_DB_HOST', 'a.db.shared.orchestra.io');
 define('GOTEO_DB_PORT', 3306);
