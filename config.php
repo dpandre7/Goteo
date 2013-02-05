@@ -56,6 +56,10 @@ define('GOTEO_META_AUTHOR', 'Onliners Web Development');
 define('GOTEO_META_COPYRIGHT', 'Fundación Fuentes Abiertas');
 
 // Database
+//Name:db_7f6f1308
+//Hostname:	a.db.shared.orchestra.io
+//Username:	user_7f6f1308
+//Password:	kIhOcKE8!,b93,
 define('GOTEO_DB_DRIVER', 'mysql');
 define('GOTEO_DB_HOST', 'a.db.shared.orchestra.io');
 define('GOTEO_DB_PORT', 3306);
